@@ -101,8 +101,19 @@ function Home() {
             <li className='hover:text-gray-400 cursor-pointer'>+91 9770776655</li>
             <li className='hover:text-gray-400 cursor-pointer'>kidzafirststep@gmail.com</li>
             <li className='hover:text-gray-400 cursor-pointer'>🕒 10:00 AM to 6:00 PM (Mon-Fri)</li>
+            
           </ul>
         </div>
+
+      <div className="flex justify-center mt-3 sm:mt-0">
+  <ul className="flex flex-col items-center sm:items-start text-center sm:text-left space-y-1 max-w-xs">
+    <li className="text-gray-400 cursor-pointer text-sm">Developer: Satyam Jain</li>
+    <li className="text-gray-400 cursor-pointer text-sm">satyam26092004@gmail.com</li>
+    <li className="text-gray-400 cursor-pointer text-sm">8269725282</li>
+  </ul>
+</div>
+
+
       </footer>
     </>
   )
