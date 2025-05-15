@@ -1,5 +1,18 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "kidschool/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "kidschool/dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/kidschool/dist/index.html"
+    }
   ]
 }
