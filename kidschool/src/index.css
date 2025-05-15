@@ -1,13 +1,3 @@
-@import 'tailwindcss';
-
-body {
-  overflow-x: hidden;
-  background: linear-gradient(135deg, 
-    #fdf6f0,   /* Soft cream */
-    #ffe6e6,   /* Light pink */
-    #e0f7fa,   /* Soft sky blue */
-    #f3ffe3,   /* Very light mint green */
-    #fff0f5    /* Lavender blush */
-  );
-  font-family: 'Fredoka', 'Comic Sans MS', cursive, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
