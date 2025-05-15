@@ -1,8 +1,1 @@
-{
-  "builds": [
-    { "src": "kidschool/package.json", "use": "@vercel/static-build" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/kidschool/index.html" }
-  ]
-}
+{}
