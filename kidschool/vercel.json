@@ -1,11 +1,7 @@
 {
   "version": 3,
   "build": {
-    "installCommand": "npm install",
     "buildCommand": "npm run build",
-    "outputDirectory": "kidschool/dist"
-  },
-  "routes": [
-    { "src": "/(.*)", "dest": "/kidschool/index.html" }
-  ]
+    "outputDirectory": "dist"
+  }
 }
