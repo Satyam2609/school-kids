@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/kidschool/',  // Set base path to match the project folder
+  base: '/',  // Use root path since we're deploying to root
   build: {
     rollupOptions: {
       external: ['react', 'react-dom', 'react-router-dom'],

@@ -1,27 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "kidschool/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist",
-        "buildCommand": "cd kidschool && npm run build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/kidschool/(.*)",
-      "dest": "/kidschool/dist/$1"
-    },
-    {
-      "src": "/kidschool",
-      "dest": "/kidschool/dist/index.html"
-    },
-    {
-      "src": "/",
-      "dest": "/kidschool/dist/index.html"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "buildCommand": "cd kidschool && npm run build",
+  "outputDirectory": "kidschool/dist"
 }
