@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // This ensures assets are served from the root path
+  base: '/kidschool/',  // Set base path to match the project folder
   build: {
     rollupOptions: {
       external: ['react', 'react-dom', 'react-router-dom'],
