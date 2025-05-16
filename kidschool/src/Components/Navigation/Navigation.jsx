@@ -6,7 +6,7 @@ function Navigation() {
     <>   
       <div className='bg-gray-300 h-[13vh] w-full md:w-[70vw] flex justify-start items-center border-l-2'>
         {/* Image from public folder */}
-        <img src='/public/assets/logo.avif' className='h-[8vh] w-[14vh] ml-[6vw]' alt="Logo" />
+        <img src='/assets/logo.avif' className='h-[8vh] w-[14vh] ml-[6vw]' alt="Logo" />
       </div>
       <div className='flex justify-end relative bottom-[13vh]'>
         <div className='bg-purple-600 h-[13vh] w-full md:w-[70vw] rounded-l-full text-center border-l-2'>
