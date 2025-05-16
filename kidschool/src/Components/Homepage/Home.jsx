@@ -4,21 +4,9 @@ import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import data from './HomeShowData'
 
-// Importing images for background divs and footer explicitly for Vite compatibility
-import playGroupPng from '../../assets/PLAY GROUP.png'
-import playGroupJpg from '../../assets/PLAY GROUP.jpg'
-import nurseryJpg from '../../assets/NURSERY.jpg'
-import nurseryM from '../../assets/NURSERYM.jpg'
-import juniorKgJpg from '../../assets/JUNIORKG.jpg'
-import juniorKgM from '../../assets/JUNIORKGM.jpg'
-import seniorKgJpg from '../../assets/SENIORKG.jpg'
-import seniorKgM from '../../assets/SENIORKGM.jpg'
-import logoAvif from '../../assets/logo.avif'
-import butterflyPng from '../../assets/butterfly.png'
-
 function Home() {
   const slides = slide.map((item) => (
-    <img src={item.image} role='presentation' className='w-full h-auto object-cover' key={item.id} />
+    <img src={item.image} role='presentation' className='w-full h-auto object-cover' key={item.id} alt="" />
   ))
 
   return (
@@ -53,39 +41,38 @@ function Home() {
       </div>
 
       <div className='bg-purple-500 flex flex-wrap justify-center items-center gap-4 py-10'>
-
         <div
           className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300'
-          style={{ backgroundImage: `url(${playGroupPng})`, backgroundSize: 'cover' }}
-          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url(${playGroupJpg})`)}
-          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url(${playGroupPng})`)}
+          style={{ backgroundImage: `url('/assets/PLAY_GROUP.png')`, backgroundSize: 'cover' }}
+          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/PLAY_GROUP.jpg')`)}
+          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/PLAY_GROUP.png')`)}
         ></div>
 
         <div
           className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300'
-          style={{ backgroundImage: `url(${playGroupPng})`, backgroundSize: 'cover' }}
-          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url(${nurseryJpg})`)}
-          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url(${nurseryM})`)}
+          style={{ backgroundImage: `url('/assets/PLAY_GROUP.png')`, backgroundSize: 'cover' }}
+          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/NURSERY.jpg')`)}
+          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/NURSERYM.jpg')`)}
         ></div>
 
         <div
           className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300'
-          style={{ backgroundImage: `url(${playGroupPng})`, backgroundSize: 'cover' }}
-          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url(${juniorKgJpg})`)}
-          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url(${juniorKgM})`)}
+          style={{ backgroundImage: `url('/assets/PLAY_GROUP.png')`, backgroundSize: 'cover' }}
+          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/JUNIORKG.jpg')`)}
+          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/JUNIORKGM.jpg')`)}
         ></div>
 
         <div
           className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300'
-          style={{ backgroundImage: `url(${playGroupPng})`, backgroundSize: 'cover' }}
-          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url(${seniorKgJpg})`)}
-          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url(${seniorKgM})`)}
+          style={{ backgroundImage: `url('/assets/PLAY_GROUP.png')`, backgroundSize: 'cover' }}
+          onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/SENIORKG.jpg')`)}
+          onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/SENIORKGM.jpg')`)}
         ></div>
       </div>
 
       <div className='bg-yellow-200 py-10 px-4 relative overflow-hidden'>
-        <img src={butterflyPng} className='h-32 sm:h-40 md:h-60 animate-pulse absolute top-0 left-0 z-10' alt="Butterfly 1" />
-        <img src={butterflyPng} className='h-32 sm:h-40 md:h-60 animate-pulse absolute bottom-0 right-0 z-10' alt="Butterfly 2" />
+        <img src='/assets/butterfly.png' className='h-32 sm:h-40 md:h-60 animate-pulse absolute top-0 left-0 z-10' alt="Butterfly 1" />
+        <img src='/assets/butterfly.png' className='h-32 sm:h-40 md:h-60 animate-pulse absolute bottom-0 right-0 z-10' alt="Butterfly 2" />
         <div className='text-center text-base sm:text-lg md:text-xl max-w-4xl mx-auto relative z-20'>
           At , we believe every child is special and deserves a nurturing environment where learning is fun, values are strong,
           and dreams take flight. Our mission is to create a second home for your child – where they don’t just learn ABCs, but
@@ -99,7 +86,7 @@ function Home() {
       <footer className='bg-violet-700 py-10 text-white text-sm sm:text-base md:text-lg'>
         <div className='flex flex-col sm:flex-row justify-around items-start px-4'>
           <div>
-            <img className='h-10 mb-2' src={logoAvif} alt='Logo' />
+            <img className='h-10 mb-2' src='/assets/logo.avif' alt='Logo' />
             <p>kidzafirststep@gmail.com</p>
             <p>+91 9770776655</p>
           </div>

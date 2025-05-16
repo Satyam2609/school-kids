@@ -1,14 +1,15 @@
+import Slide1 from "../../../public/assets/SLIDE.jpg";
+import Slide2 from "../../../public/assets/SLIDE1.PNG";
+
 const slide = [
-    {
-        image: '/src/assets/SLIDE.jpg',
-        path: ''
-    },
-    {
-        image: '/src/assets/SLIDE1.PNG',
-        path: ''
-    }
-]
+  {
+    image: Slide1,
+    path: "",
+  },
+  {
+    image: Slide2,
+    path: "",
+  },
+];
 
-
-
-export default slide
+export default slide;
