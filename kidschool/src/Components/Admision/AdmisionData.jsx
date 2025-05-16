@@ -1,7 +1,10 @@
+import image1 from '../../../public/assets/butterfly.png'
+import image2 from '../../../public/assets/AdmisionImage.png'
+
 const data = [
     {
-        image : '/src/assets/butterfly.png',
-        image1: '/src/assets/AdmisionImage.png'
+        image : image1,
+        image1: image2
     }
    
 ]

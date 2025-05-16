@@ -43,7 +43,7 @@ function Home() {
       <div className='bg-purple-500 flex flex-wrap justify-center items-center gap-4 py-10'>
         <div
           className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300'
-          style={{ backgroundImage: `url('/assets/PLAY_GROUP.png')`, backgroundSize: 'cover' }}
+          style={{ backgroundImage: `url('/public/assets/PLAY_GROUP.png')`, backgroundSize: 'cover' }}
           onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/PLAY_GROUP.jpg')`)}
           onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/PLAY_GROUP.png')`)}
         ></div>
