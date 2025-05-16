@@ -13,34 +13,28 @@ function Navigation() {
         />
       </div>
 
-      {/* ✅ Navigation + Mobile Logo */}
+      {/* ✅ Navigation Bar for all screens */}
       <div className='flex justify-end relative md:bottom-[13vh]'>
-        <div className='bg-purple-600 h-[13vh] w-full md:w-[70vw] rounded-l-full text-center border-l-2 flex items-center justify-center relative'>
+        <div className='bg-purple-600 h-auto py-4 w-full md:w-[70vw] rounded-l-full text-center border-l-2 flex flex-col md:flex-row items-center justify-between px-4 md:px-8'>
 
-          {/* ✅ Mobile Logo (visible only on small screens) */}
+          {/* ✅ Logo (Mobile only) */}
           <img 
             src='/assets/logo.avif' 
-            className='h-[5vh] w-auto absolute left-4 top-4 object-contain md:hidden' 
+            className='h-[5vh] w-auto object-contain md:hidden mb-2' 
             alt="Logo" 
           />
 
           {/* ✅ Navigation Links */}
-          <div className='mx-auto flex justify-around items-center w-[90%] md:w-[50%]'>
-            <div>
-              <NavLink to='/' className={({isActive}) => isActive ? 'text-yellow-400 font-semibold' : 'text-white'}>
-                Home
-              </NavLink>
-            </div>
-            <div>
-              <NavLink to='/Admission' className={({isActive}) => isActive ? 'text-yellow-400 font-semibold' : 'text-white'}>
-                Admissions
-              </NavLink>
-            </div>
-            <div>
-              <NavLink to="/About us" className={({isActive}) => `${isActive ? 'text-yellow-400 font-semibold' : 'text-white'} whitespace-nowrap`}>
-                About us
-              </NavLink>
-            </div>
+          <div className='flex flex-wrap gap-6 md:gap-12 items-center justify-center text-sm md:text-base'>
+            <NavLink to='/' className={({isActive}) => isActive ? 'text-yellow-400 font-semibold' : 'text-white'}>
+              Home
+            </NavLink>
+            <NavLink to='/Admission' className={({isActive}) => isActive ? 'text-yellow-400 font-semibold' : 'text-white'}>
+              Admissions
+            </NavLink>
+            <NavLink to="/About us" className={({isActive}) => `${isActive ? 'text-yellow-400 font-semibold' : 'text-white'} whitespace-nowrap`}>
+              About us
+            </NavLink>
           </div>
         </div>
       </div>
