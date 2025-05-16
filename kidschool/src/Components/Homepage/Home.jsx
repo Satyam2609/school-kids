@@ -103,8 +103,8 @@ function Home() {
           </ul>
         </div>
 
-        <div className="flex justify-end mt-3 sm:mt-0">
-  <ul className="flex flex-wrap justify-end items-center text-[11px] sm:text-xs space-x-2 sm:space-x-3 text-gray-400 cursor-pointer text-right">
+        <div className="flex  justify-end mt-3 sm:mt-0 pr-4">
+  <ul className="flex flex-col justify-end items-center text-[11px] sm:text-xs space-x-2 sm:space-x-3 text-gray-400 cursor-pointer text-right">
     <li>Developer: Satyam Jain</li>
     <li>satyam26092004@gmail.com</li>
     <li>8269725282</li>
