@@ -4,10 +4,17 @@ import { NavLink } from 'react-router-dom'
 function Navigation() {
   return (
     <>   
+      {/* Logo Section */}
       <div className='bg-gray-300 h-[13vh] w-full md:w-[70vw] flex justify-start items-center border-l-2'>
-        {/* Image from public folder */}
-        <img src='/assets/logo.avif' className='h-[8vh] w-[14vh] ml-[6vw]' alt="Logo" />
+        {/* Responsive Logo */}
+        <img 
+          src='/assets/logo.avif' 
+          className='h-[6vh] w-auto ml-4 md:h-[8vh] md:ml-[6vw] object-contain' 
+          alt="Logo" 
+        />
       </div>
+
+      {/* Navigation Links Section */}
       <div className='flex justify-end relative bottom-[13vh]'>
         <div className='bg-purple-600 h-[13vh] w-full md:w-[70vw] rounded-l-full text-center border-l-2'>
           <div className='relative top-[4vh] mx-auto flex justify-around items-center w-[90%] md:w-[50%]'>
