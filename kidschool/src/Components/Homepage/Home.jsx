@@ -42,28 +42,28 @@ function Home() {
 
       <div className='bg-purple-500 flex flex-wrap justify-center items-center gap-4 py-10'>
         <div
-          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-115 transition-transform duration-300'
+          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-135 transition-transform duration-300'
           style={{ backgroundImage: `url('/assets/PLAYGROUP.png')`, backgroundSize: 'cover' }}
           onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/PLAYGROUP.jpg')`)}
           onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/PLAYGROUP.png')`)}
         ></div>
 
         <div
-          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-115 transition-transform duration-300'
+          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-135 transition-transform duration-300'
           style={{ backgroundImage: `url('/assets/NURSERYM.jpg')`, backgroundSize: 'cover' }}
           onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/NURSERY.jpg')`)}
           onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/NURSERYM.jpg')`)}
         ></div>
 
         <div
-          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-115 transition-transform duration-300'
+          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-135 transition-transform duration-300'
           style={{ backgroundImage: `url('/assets/JUNIORKGM.jpg')`, backgroundSize: 'cover' }}
           onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/JUNIORKG.jpg')`)}
           onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/JUNIORKGM.jpg')`)}
         ></div>
 
         <div
-          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-115 transition-transform duration-300'
+          className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-135 transition-transform duration-300'
           style={{ backgroundImage: `url('/assets/SENIORKGM.jpg')`, backgroundSize: 'cover' }}
           onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/SENIORKG.jpg')`)}
           onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/SENIORKGM.jpg')`)}
@@ -104,7 +104,7 @@ function Home() {
         </div>
 
         <div className="flex justify-center mt-3 sm:mt-0">
-          <ul className="flex flex-col items-center sm:items-start text-center sm:text-left space-y-1 max-w-xs">
+          <ul className="flex flex-col items-end sm:items-start text-center sm:text-left space-y-1 max-w-xs">
             <li className="text-gray-400 cursor-pointer text-sm">Developer: Satyam Jain</li>
             <li className="text-gray-400 cursor-pointer text-sm">satyam26092004@gmail.com</li>
             <li className="text-gray-400 cursor-pointer text-sm">8269725282</li>
