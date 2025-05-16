@@ -64,7 +64,7 @@ function Home() {
 
         <div
           className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300'
-          style={{ backgroundImage: `url('/assets/SENIORKGM.jpg')`, backgroundSize: 'cover' }}
+          style={{ backgroundImage: `url('/assets/SENIORKGM')`, backgroundSize: 'cover' }}
           onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/SENIORKG.jpg')`)}
           onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/SENIORKGM.jpg')`)}
         ></div>
