@@ -1,6 +1,7 @@
 import React, { forwardRef, useState } from 'react'
 import data from './AdmisionData'
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
+
 
 
 function Admision() {
