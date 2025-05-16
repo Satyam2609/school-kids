@@ -1,6 +1,6 @@
 const data = [
     {
-        image:'/src/assets/herobarimage.png',
+        image:'/assets/herobarimage.png',
         title:'New schools ',
         title2:'Stand for Children commits itself to helping students receive a quality education regardless of socioeconomic status, race, or geographic location. The organization engages parents to actively support their children’s education.',
         title3:'Teacher qualifications',
