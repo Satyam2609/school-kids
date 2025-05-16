@@ -27,7 +27,7 @@ function Navigation() {
           />
 
           {/* ✅ Nav Links */}
-          <div className="flex gap-6 md:gap-12 text-sm md:text-base">
+          <div className="flex md:justify-end gap-6 md:gap-12 text-sm  md:text-base">
             <NavLink
               to="/"
               className={({ isActive }) =>
