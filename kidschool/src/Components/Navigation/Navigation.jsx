@@ -1,14 +1,14 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
     <>
-      {/* ✅ Container that handles the full navbar positioning */}
+      {/* ✅ Main container */}
       <div className="relative h-[13vh] w-full mb-6">
 
-        {/* ✅ Gray background (left side) */}
-        <div className="absolute top-0 left-0 h-[13vh] w-[60%] bg-gray-300 z-10 flex items-center pl-6 md:pl-[4vw]">
+        {/* ✅ Gray background */}
+        <div className="absolute top-0 left-0 h-[13vh] w-[60%] bg-gray-300 z-10 hidden md:flex items-center pl-6">
           <img
             src="/assets/logo.avif"
             alt="Logo"
@@ -16,18 +16,20 @@ function Navigation() {
           />
         </div>
 
-        {/* ✅ Purple Navbar on top (right side and overlapping gray) */}
-        <div className="absolute top-0 right-0 h-[13vh] w-full md:w-[70%] bg-purple-600 z-20 rounded-l-full flex items-center justify-center">
-          
+        {/* ✅ Purple Navbar */}
+        <div className="absolute top-0 right-0 h-[13vh] md:h-[13vh] w-full md:w-[70%] bg-purple-600 z-20 rounded-l-full flex flex-col md:flex-row items-center justify-center gap-2 md:gap-12 px-4 py-2">
+
           {/* ✅ Mobile Logo (hidden in desktop) */}
-          <img
-            src="/assets/logo.avif"
-            alt="Logo"
-            className="h-[5vh] w-auto object-contain absolute left-4 top-4 md:hidden"
-          />
+          <div className="md:hidden mb-2">
+            <img
+              src="/assets/logo.avif"
+              alt="Logo"
+              className="h-[6vh] w-auto object-contain"
+            />
+          </div>
 
           {/* ✅ Nav Links */}
-          <div className="flex md:justify-end gap-6 md:gap-12 text-sm  md:text-base">
+          <div className="flex flex-col md:flex-row gap-2 md:gap-12 text-sm md:text-base items-center">
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -56,7 +58,7 @@ function Navigation() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Navigation
+export default Navigation;
