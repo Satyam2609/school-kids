@@ -75,11 +75,11 @@ function Home() {
         <img src='/assets/butterfly.png' className='h-32 sm:h-40 md:h-60 animate-pulse absolute bottom-0 right-0 z-10' alt="Butterfly 2" />
         <div className='text-center text-base sm:text-lg md:text-xl max-w-4xl mx-auto relative z-20'>
           At , we believe every child is special and deserves a nurturing environment where learning is fun, values are strong,
-          and dreams take flight. Our mission is to create a second home for your child – where they don’t just learn ABCs, but
+          and dreams take flight. Our mission is to create a second home for your child where they dont just learn ABCs, but
           also the art of kindness, creativity, and confidence. With a team of experienced teachers, vibrant classrooms, safe play
           areas, and a holistic approach to education, we ensure your little one enjoys every moment of their journey.
           From playful learning to strong moral foundations, we prepare your child for life — not just exams. Join our school family
-          today, and let’s build a bright future together – one smile at a time!
+          today, and lets build a bright future together one smile at a time!
         </div>
       </div>
 
