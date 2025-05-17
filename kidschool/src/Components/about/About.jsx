@@ -2,13 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-      <div>
-        <div>
-          
-        </div>
-      </div>
-        
+    <div className='text-center'>
+        <h2 className='text-5xl '>On working</h2>
       
     </div>
   )
