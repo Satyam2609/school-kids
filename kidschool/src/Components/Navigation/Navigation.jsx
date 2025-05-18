@@ -38,7 +38,7 @@ function Navigation() {
               Admissions
             </NavLink>
             <NavLink
-              to="/About us"
+              to="/About-us"
               className={({ isActive }) =>
                 `${isActive ? 'text-yellow-400 font-semibold' : 'text-white'} whitespace-nowrap text-xs md:text-base`
               }
