@@ -3,6 +3,7 @@ import slide from './HomeData'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import data from './HomeShowData'
+import { NavLink } from 'react-router-dom'
 
 function Home() {
   const slides = slide.map((item) => (
@@ -11,6 +12,7 @@ function Home() {
 
   return (
     <>
+    <NavLink to='/Admission'>
       <div className='w-full overflow-hidden'>
         <AliceCarousel
           items={slides}
@@ -21,6 +23,7 @@ function Home() {
           disableDotsControls
         />
       </div>
+      </NavLink>
 
       <div className='bg-gradient-to-br from-rose-100 via-yellow-100 to-orange-100 py-10 px-4 relative'>
         <div className='absolute w-40 h-40 bg-yellow-400 rounded-full opacity-30 top-10 left-10 md:left-20'></div>
