@@ -96,7 +96,7 @@ function Home() {
           <ul className='mt-4 sm:mt-0'>
             <li className='hover:text-gray-400 cursor-pointer'>Play group</li>
             <li className='hover:text-gray-400 cursor-pointer mt-2'>Nursery</li>
-            <li className='hover:text-gray-400 cursor-pointer mt-2'>Kindergarten</li>
+            <li className='hover:text-gray-400 cursor-pointer mt-2'>Kinder garden</li>
           </ul>
           <ul className='mt-4 sm:mt-0'>
             <li className='hover:text-gray-400 cursor-pointer'>Contact us</li>
