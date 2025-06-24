@@ -10,7 +10,8 @@ function Admision() {
     email:'',
     number: '',
     location:'',
-    class:''
+    class:'',
+    DOB:''
   })
 
   const handlechange = (e) => {
@@ -30,7 +31,8 @@ setfromdata({...formdata,[e.target.name] : e.target.value});
       email: formdata.email,
       number: formdata.number,
       location: formdata.location,
-      class: formdata.class
+      class: formdata.class,
+      DOB:formdata.DOB
     }
 
   
@@ -123,6 +125,43 @@ emailjs.send(serviceid , templateid, templteprames , userid)
 
                   
                   </select>
+                </div>
+
+                <div>
+                  <label className="block font-semibold text-gray-700 mb-1">STUDENT DOB:</label>
+                  <input
+                    type="text"
+                    placeholder="DOB"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    required
+                    value={formdata.location}
+                    name='location'
+                    onChange={handlechange}
+                  />
+                </div>
+                <div>
+                  <label className="block font-semibold text-gray-700 mb-1">FATHER NAME:</label>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    required
+                    value={formdata.location}
+                    name='location'
+                    onChange={handlechange}
+                  />
+                </div>
+                <div>
+                  <label className="block font-semibold text-gray-700 mb-1">MOTHER NAME</label>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    required
+                    value={formdata.location}
+                    name='location'
+                    onChange={handlechange}
+                  />
                 </div>
 
                 <div className="text-center">

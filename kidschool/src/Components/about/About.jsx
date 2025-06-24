@@ -80,11 +80,14 @@ const Accordianitem = ({question , answer}) => {
       </div>
         
       </div>
+      
 
       
 
       
     </div>
+
+    
   );
 }
 
