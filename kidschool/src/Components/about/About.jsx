@@ -60,7 +60,7 @@ const Accordianitem = ({question , answer}) => {
         <p className="text-justify text-xs sm:text-sm md:text-base leading-relaxed">
           <strong>Welcome to Kidz a First Step</strong>, a nurturing and vibrant learning community where young minds grow, explore, and thrive. Founded with a vision to provide holistic education in a safe and joyful environment, our school caters to children from Play Group to Grade 5.
           <br /><br />
-          At <strong>Kidz the First Step</strong>, we believe that every child is unique and full of potential. Our curriculum blends play-based learning in the early years with a strong academic foundation as students progress. We focus on developing not just knowledge but also creativity, confidence, and values that last a lifetime.
+          At <strong>Kidz a First Step</strong>, we believe that every child is unique and full of potential. Our curriculum blends play-based learning in the early years with a strong academic foundation as students progress. We focus on developing not just knowledge but also creativity, confidence, and values that last a lifetime.
           <br /><br />
           Our experienced and caring teachers use innovative teaching methods to make learning engaging and meaningful. We maintain small class sizes to ensure individual attention and foster a close-knit, supportive atmosphere.
           <br /><br />
