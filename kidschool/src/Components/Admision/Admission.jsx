@@ -188,7 +188,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
             />
           )}
           <p className="text-center mt-10 text-4xl font-bold bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 bg-clip-text text-transparent animate-bounce">
-            KIDz THE FIRST STEP
+            KIDz A FIRST STEP
           </p>
         </div>
       </div>
