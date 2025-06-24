@@ -11,7 +11,9 @@ function Admision() {
     number: '',
     location:'',
     class:'',
-    DOB:''
+    DOB:'',
+    MOTHER:'',
+    FATHER:''
   })
 
   const handlechange = (e) => {
@@ -32,7 +34,9 @@ setfromdata({...formdata,[e.target.name] : e.target.value});
       number: formdata.number,
       location: formdata.location,
       class: formdata.class,
-      DOB:formdata.DOB
+      DOB:formdata.DOB,
+      MOTHER:formdata.MOTHER,
+      FATHER:formdata.FATHER
     }
 
   
@@ -134,7 +138,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
                     placeholder="DOB"
                     className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
                     required
-                    value={formdata.location}
+                    value={formdata.DOB}
                     name='location'
                     onChange={handlechange}
                   />
@@ -146,7 +150,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
                     placeholder="Name"
                     className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
                     required
-                    value={formdata.location}
+                    value={formdata.FATHER}
                     name='location'
                     onChange={handlechange}
                   />
@@ -158,7 +162,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
                     placeholder="Name"
                     className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
                     required
-                    value={formdata.location}
+                    value={formdata.MOTHER}
                     name='location'
                     onChange={handlechange}
                   />
