@@ -139,7 +139,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
                     className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
                     required
                     value={formdata.DOB}
-                    name='location'
+                    name='DOB'
                     onChange={handlechange}
                   />
                 </div>
@@ -151,7 +151,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
                     className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
                     required
                     value={formdata.FATHER}
-                    name='location'
+                    name='FATHER'
                     onChange={handlechange}
                   />
                 </div>
@@ -163,7 +163,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
                     className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"
                     required
                     value={formdata.MOTHER}
-                    name='location'
+                    name='MOTHER'
                     onChange={handlechange}
                   />
                 </div>
