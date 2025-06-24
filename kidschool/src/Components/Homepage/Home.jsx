@@ -91,11 +91,11 @@ function Home() {
   {/* TEXT LEFT */}
   <div className="md:w-1/2 w-full mt-8 md:mt-0 relative z-20 px-4">
     <p className="text-base sm:text-lg md:text-2xl mt-[10rem] leading-relaxed text-gray-800 font-semibold">
-      Welcome to Kidz School — a joyful world where learning begins with laughter and love.
+      Welcome to KIDZ School — a joyful world where learning begins with laughter and love.
       From playful mornings in Playgroup to the first lessons of Nursery and the curious minds in LKG,
       we nurture every little heart with care, creativity, and compassion.
       Our colorful classrooms, friendly teachers, and fun-filled activities make each day an exciting adventure for your child.
-      At Kidz School, we don't just teach — we spark dreams, build confidence, and create memories that last a lifetime.
+      At KIDZ School, we don't just teach — we spark dreams, build confidence, and create memories that last a lifetime.
       Come, be a part of a place where every child is celebrated, every smile matters, and every step leads to a brighter future. 🌟
     </p>
   </div>
