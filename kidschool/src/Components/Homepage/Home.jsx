@@ -73,6 +73,46 @@ function Home() {
         ></div>
       </div>
 
+     <div className="relative flex flex-col md:flex-row items-start justify-between px-4 py-10 bg-white overflow-hidden">
+
+  {/* BIG colorful floating blobs */}
+  <div className="absolute top-[-5rem] left-[-5rem] w-72 h-72 bg-pink-300 rounded-full z-0 opacity-50 blur-[1px] animate-pulse"></div>
+  <div className="absolute top-[10rem] left-[5rem] w-44 h-44 bg-blue-200 rounded-full z-0 opacity-60 blur-sm animate-bounce"></div>
+  <div className="absolute bottom-[-3rem] left-[3rem] w-40 h-40 bg-yellow-200 rounded-full z-0 blur-[1px] opacity-60 animate-pulse"></div>
+  <div className="absolute top-[8rem] right-[4rem] w-60 h-60 bg-green-200 rounded-full z-0 blur-[2px] opacity-50 animate-bounce"></div>
+  <div className="absolute bottom-[0rem] right-[0rem] w-52 h-52 bg-purple-200 rounded-full z-0 blur-sm opacity-50 animate-pulse"></div>
+
+  {/* Decorative star (extra shape) */}
+  <div className="absolute top-[25%] left-[40%] w-20 h-20 bg-yellow-300 rotate-45 z-0 opacity-40 blur-sm rounded-xl animate-spin-slow"></div>
+
+  {/* Yellow Top Corner Dot */}
+  <div className="absolute top-4 left-4 h-16 w-16 bg-yellow-400 rounded-full z-10"></div>
+
+  {/* TEXT LEFT */}
+  <div className="md:w-1/2 w-full mt-8 md:mt-0 relative z-20 px-4">
+    <p className="text-base sm:text-lg md:text-2xl mt-[10rem] leading-relaxed text-gray-800 font-semibold">
+      Welcome to Kidz School — a joyful world where learning begins with laughter and love.
+      From playful mornings in Playgroup to the first lessons of Nursery and the curious minds in LKG,
+      we nurture every little heart with care, creativity, and compassion.
+      Our colorful classrooms, friendly teachers, and fun-filled activities make each day an exciting adventure for your child.
+      At Kidz School, we don't just teach — we spark dreams, build confidence, and create memories that last a lifetime.
+      Come, be a part of a place where every child is celebrated, every smile matters, and every step leads to a brighter future. 🌟
+    </p>
+  </div>
+
+  {/* VIDEO RIGHT */}
+  <div className="md:w-1/2 w-full flex justify-center mt-10 md:mt-0 relative z-20">
+    <video
+      src="/assets/instakidzschool.mp4"
+      className="w-full max-w-[30rem] h-auto rounded-2xl"
+      autoPlay
+      loop
+      muted
+      playsInline
+    />
+  </div>
+</div>
+        
       <div className='bg-yellow-200 py-10 px-4 relative overflow-hidden'>
         <img src='/assets/butterfly.png' className='h-32 sm:h-40 md:h-60 animate-pulse absolute top-0 left-0 z-10' alt="Butterfly 1" />
         <img src='/assets/butterfly.png' className='h-32 sm:h-40 md:h-60 animate-pulse absolute bottom-0 right-0 z-10' alt="Butterfly 2" />
@@ -84,6 +124,7 @@ function Home() {
           From playful learning to strong moral foundations, we prepare your child for life — not just exams. Join our school family
           today, and lets build a bright future together one smile at a time!
         </div>
+          
       </div>
 
       <footer className='bg-violet-700 py-10 text-white text-sm sm:text-base md:text-lg'>
