@@ -29,7 +29,7 @@ function Navigation() {
           </div>
 
           {/* Hamburger */}
-          <div className="md:hidden pl-[8rem] flex items-center z-30">
+          <div className="md:hidden pl-[9rem] flex items-center z-30">
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X className="text-white" /> : <Menu className="text-white" />}
             </button>
