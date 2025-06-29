@@ -125,7 +125,7 @@ emailjs.send(serviceid , templateid, templteprames , userid)
                     <option>Select class</option>
                     <option>Play Group</option>
                     <option>Nursery</option>
-                    <option>KG to 5th</option>
+                    <option>KG to 8th</option>
 
                   
                   </select>
