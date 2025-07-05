@@ -10,7 +10,7 @@ function Navigation() {
       <div className="relative flex items-center h-[5vh] md:h-[13vh] w-full">
 
         {/* Logo */}
-        <div className="bg-gray-300 h-full md:w-[35%] w-[55%] flex items-center pl-4 md:pl-6 border-l-2 z-20">
+        <div className="bg-gray-300 h-full md:w-[45%] w-[65%] flex items-center pl-4 md:pl-6 border-l-2 z-20">
           <img
             src="/assets/logo.avif"
             alt="Logo"

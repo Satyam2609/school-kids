@@ -67,7 +67,7 @@ function Home() {
 
         <div
           className='h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 border-2 rounded-2xl shadow-lg hover:scale-135 transition-transform duration-300'
-          style={{ backgroundImage: `url('/assets/SENIORKGM.jpg')`, backgroundSize: 'cover' }}
+          style={{ backgroundImage: `url('/assets/sino.png')`, backgroundSize: 'cover' }}
           onMouseEnter={e => (e.currentTarget.style.backgroundImage = `url('/assets/SENIORKG.jpg')`)}
           onMouseLeave={e => (e.currentTarget.style.backgroundImage = `url('/assets/sino.png')`)}
         ></div>
@@ -130,9 +130,7 @@ function Home() {
       <footer className='bg-violet-700 py-10 text-white text-sm sm:text-base md:text-lg'>
         <div className='flex flex-col sm:flex-row justify-around items-start px-4'>
           <div>
-            <img className='h-10 mb-2' src='/assets/logo.avif' alt='Logo' />
-            <p>kidzafirststep@gmail.com</p>
-            <p>+91 9770776655</p>
+            <img className='h-40 mt-9' src='/assets/logo.avif' alt='Logo' />
           </div>
           <ul className='mt-4 sm:mt-0'>
             <li className='hover:text-gray-400 cursor-pointer'>Play group</li>

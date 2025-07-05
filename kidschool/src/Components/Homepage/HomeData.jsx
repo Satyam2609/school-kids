@@ -1,5 +1,5 @@
 import Slide1 from "../../../public/assets/SLIDE.png";
-import Slide2 from "../../../public/assets/SLIDE1.png";
+import Slide2 from "../../../public/assets/homeimg.png";
 
 const slide = [
   {
