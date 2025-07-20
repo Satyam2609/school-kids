@@ -26,6 +26,7 @@ function Navigation() {
             <NavLink to="/" className={({ isActive }) => isActive ? 'text-yellow-400 font-semibold text-xs md:text-base' : 'text-white text-xs md:text-base'}>Home</NavLink>
             <NavLink to="/Admission" className={({ isActive }) => isActive ? 'text-yellow-400 font-semibold text-xs md:text-base' : 'text-white text-xs md:text-base'}>Admissions</NavLink>
             <NavLink to="/About-us" className={({ isActive }) => `${isActive ? 'text-yellow-400 font-semibold' : 'text-white'} whitespace-nowrap text-xs md:text-base`}>About us</NavLink>
+            <NavLink to="/visiter" className={({ isActive }) => `${isActive ? 'text-yellow-400 font-semibold' : 'text-white'} whitespace-nowrap text-xs md:text-base`}>Visit</NavLink>
           </div>
 
           {/* Hamburger */}
@@ -66,6 +67,15 @@ function Navigation() {
             onClick={() => setIsOpen(false)}
           >
             About us
+          </NavLink>
+          <NavLink
+            to="/visiter"
+            className={({ isActive }) =>
+              isActive ? 'text-yellow-400 font-semibold text-sm' : 'text-white text-sm'
+            }
+            onClick={() => setIsOpen(false)}
+          >
+            Visit
           </NavLink>
         </div>
       )}

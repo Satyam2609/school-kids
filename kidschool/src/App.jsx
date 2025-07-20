@@ -4,6 +4,7 @@ import Home from './Components/Homepage/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Admission from './Components/Admision/Admission'
 import About from './Components/about/About'
+import Visiter from './Components/visiters/Visiter'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path='/' element={<Home/>}/> 
       <Route path='/Admission' element={<Admission/>}/>
       <Route path='/About-us' element={<About/>}/>
+      <Route path='/visiter' element={<Visiter/>}/>
     </Routes>
     </BrowserRouter>
     
